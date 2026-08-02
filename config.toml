@@ -44,5 +44,6 @@ names = ["Common Rules", "Wife", "Admin", "Router-Guests"]
 
 [profile_folders]
 "Common Rules" = ["Spam TLDs", "Spam TLDs allow", "Spam IDNs"]
+"Admin" = ["Spam TLDs", "Spam TLDs allow", "Spam IDNs"]
 "Wife" = ["Referral", "META Tracker allow"]
 "Router-Guests" = ["Referral", "META Tracker allow"]

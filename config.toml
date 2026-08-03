@@ -19,7 +19,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Common Rules", "Wife", "Admin", "Router-Guests"]
+names = ["Common Rules", "Admin"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -30,10 +30,10 @@ names = ["Common Rules", "Wife", "Admin", "Router-Guests"]
 
 [folders]
 "Spam TLDs"              = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-folder.json"
-"Spam TLDs allow"        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-allow-folder.json"
+"Spam TLDs Allow"        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-allow-folder.json"
 "Referral"               = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
 "Spam IDNs"              = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-idns-folder.json"
-"META Tracker allow"     = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
+"META Tracker Allow"     = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
@@ -43,7 +43,5 @@ names = ["Common Rules", "Wife", "Admin", "Router-Guests"]
 # =============================================================================
 
 [profile_folders]
-"Common Rules" = ["Spam TLDs", "Spam TLDs allow", "Spam IDNs"]
-"Admin" = ["Spam TLDs", "Spam TLDs allow", "Spam IDNs"]
-"Wife" = ["Referral", "META Tracker allow"]
-"Router-Guests" = ["Referral", "META Tracker allow"]
+"Common Rules" = ["Spam TLDs", "Spam TLDs Allow", "Spam IDNs", "Referral", "META Tracker Allow"]
+"Admin" = ["Spam TLDs", "Spam TLDs Allow", "Spam IDNs"]

@@ -19,7 +19,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Common Rules", "Admin"]
+names = ["Common Rules", "Extras", "Admin"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -43,5 +43,6 @@ names = ["Common Rules", "Admin"]
 # =============================================================================
 
 [profile_folders]
-"Common Rules" = ["Spam TLDs", "Spam TLDs Allow", "Spam IDNs", "Referral", "META Tracker Allow"]
+"Common Rules" = ["Referral", "META Tracker Allow"]
+"Extras" = ["Spam TLDs", "Spam TLDs Allow", "Spam IDNs"]
 "Admin" = ["Spam TLDs", "Spam TLDs Allow", "Spam IDNs"]
